@@ -47,7 +47,8 @@ module.exports.routes = {
   ***************************************************************************/
   
   '/hello': { view: 'hello' },
-  'get /webhook': 'WebhookController.webhook'
+  'get /webhook': 'WebhookController.webhook',
+  'post /webhook': 'WebhookController.webhookpost'
 
 };
 
