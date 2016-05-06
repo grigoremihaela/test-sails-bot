@@ -1,5 +1,8 @@
 module.exports = {
   webhook: function (req, res) {
-    return res.send("Hi there!");
-  }
+    if (req.query['hub.verify_token'] === 'test-sails-bot') {
+       res.send(req.query['hub.challenge']);
+    }
+    res.send('Error, wrong validation token');
+    }
 };
