@@ -17,7 +17,7 @@ module.exports = {
               // Handle a text message from this sender
             }
         }
-        res.status(200);
+        res.send(200);
     }
 
 };
