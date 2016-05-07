@@ -18,7 +18,7 @@ module.exports = {
             }
         }
     
-        FacebookService.sendTextMessage(sender, "Text received, echo: "+ text.substring(0, 200));
+     //   FacebookService.sendTextMessage(sender, "Text received, echo: "+ text.substring(0, 200));
         res.send(200, 'Test send is ok!');
     }
 
