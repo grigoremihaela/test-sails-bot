@@ -7,15 +7,13 @@
 
 module.exports = {
 
-create: function (req, res) {
+    create: function (req, res) {
 
-   TestAPI.create({userName:'Walter Jr', password:'walterjr'}).exec(function createCB(err, created){
-     console.log('Created user with name ' + created.name);
-   });
+       TestAPI.create({userName:'Walter Jr', password:'walterjr'}).exec(function createCB(err, created){
+         console.log('Created user with name ' + created.name);
+       });
 
-}
-
-
+    }
 	
 };
 
