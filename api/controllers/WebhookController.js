@@ -19,8 +19,9 @@ module.exports = {
             Webhook.create({sender:sender, text:text}).exec(function createCB(err, created){
                 console.log('Created text' + created.text);
             });
-            FacebookService.sendTextMessage(sender, "Mesaj primit!");
-        }             
+            
+        }      
+        FacebookService.sendTextMessage(sender, "Am primit!");       
 //        FacebookService.sendTextMessage(sender, "Text received, echo: "+ text.substring(0, 200));
         res.send(200, 'Ok!');
     },
