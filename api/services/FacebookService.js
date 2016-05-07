@@ -1,5 +1,3 @@
-
-     // FacebookService.js - in api/services
 module.exports = {
 
     sendTextMessage: function(sender, text) {
