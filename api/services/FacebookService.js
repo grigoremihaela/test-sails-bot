@@ -2,7 +2,7 @@
      // FacebookService.js - in api/services
 module.exports = {
 
-    var token = "EAADNqFLS204BANfl8rGLpHyvBQOKnK8CdAzBFlBw7kADFlyf1vG9Ru4WWk4uP7oNwJNMhj2ZCk78dSkHTUpQz2ZAgMGeJ9VmTQjoQOZBdigAFCehZAndNHIs5ZAnxVeYEPQ5sHQJStTHWZBTaLh9ZCsdLXlBtJJDPyq84zL5bWfLwZDZD";
+//    var token = 'EAADNqFLS204BANfl8rGLpHyvBQOKnK8CdAzBFlBw7kADFlyf1vG9Ru4WWk4uP7oNwJNMhj2ZCk78dSkHTUpQz2ZAgMGeJ9VmTQjoQOZBdigAFCehZAndNHIs5ZAnxVeYEPQ5sHQJStTHWZBTaLh9ZCsdLXlBtJJDPyq84zL5bWfLwZDZD';
 
     sendTextMessage: function(sender, text) {
       messageData = {
