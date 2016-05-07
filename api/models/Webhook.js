@@ -7,6 +7,8 @@
 
 module.exports = {
 
+  tableName: "webhook",
+  
   attributes: {
     id: {
       type: 'integer',
@@ -22,4 +24,5 @@ module.exports = {
     	type: 'date' 
     }
   }
+
 };
