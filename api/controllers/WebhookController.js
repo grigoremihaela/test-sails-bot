@@ -2,7 +2,7 @@ var token = "EAADNqFLS204BANfl8rGLpHyvBQOKnK8CdAzBFlBw7kADFlyf1vG9Ru4WWk4uP7oNwJ
 
 function sendTextMessage(sender, text) {
   messageData = {
-    text:"test send message ok"
+    text:'test send message ok'
   }
   request({
     url: 'https://graph.facebook.com/v2.6/me/messages',
