@@ -20,8 +20,8 @@ module.exports = {
               console.log('Created text' + created.text);
             });
         }
-        FacebookService.sendTextMessage('992642237438736', "Text ok");
- //       FacebookService.sendTextMessage(sender, "Text received, echo: "+ text.substring(0, 200));
+//        FacebookService.sendTextMessage('992642237438736', "Text ok");
+        FacebookService.sendTextMessage(sender, "Text received, echo: "+ text.substring(0, 200));
         res.send(200, 'Ok!');
     }
 
